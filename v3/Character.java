@@ -8,11 +8,10 @@
 public class Character
 {
 
-  //this feels like a bad idea... but the compiler made me do it!
-  public int _hitPts;
-  public int _strength;
-  public int _defense;
-  public double _attack;
+  protected int _hitPts;
+  protected int _strength;
+  protected int _defense;
+  protected double _attack;
 
 
   // ~~~~~~~~~~~~~~ ACCESSORS ~~~~~~~~~~~~~~~~~
