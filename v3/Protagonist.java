@@ -7,7 +7,7 @@
 public class Protagonist extends Character
 {
   // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
-  private String _name = "J. Doe";
+  protected String _name = "J. Doe";
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 

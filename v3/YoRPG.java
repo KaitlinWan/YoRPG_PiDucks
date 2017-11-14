@@ -91,16 +91,16 @@ public class YoRPG
 	     int choice = Integer.parseInt(in.readLine());
     
     if (choice == 1) {
-       pat = new Mage();
+	pat = new Mage(name);
     }
     else if (choice == 2) {
-       pat =  new Warrior();
+       pat =  new Warrior(name);
     }
     else if (choice == 3) {
-       pat = new Marksman();
+       pat = new Marksman(name);
     }
     else {
-       pat = new Protagonist( name);
+       pat = new Protagonist(name);
     }
     }
     catch ( IOException e ) { }

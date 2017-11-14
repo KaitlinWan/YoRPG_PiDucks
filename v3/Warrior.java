@@ -6,9 +6,13 @@ public class Warrior extends Protagonist
         _defense = 50;
         _attack = .3;
     }
+    public Warrior( String name ) {
+	this();
+	_name = name;
+    }
     
     public static String about() {
         String retstr = "The warrior class has higher health and defense, with a slightly lower attack.";
         return retstr;
-}
+    }
 }
