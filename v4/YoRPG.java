@@ -75,9 +75,6 @@ public class YoRPG
     }
     catch ( IOException e ) { }
     
-
-    //instantiate the player's character
-    pat = new Protagonist( name );
     
     s = "What class does thy choose?: \n";
     s += "\t1: Mage\n";
@@ -92,15 +89,19 @@ public class YoRPG
     
     if (choice == 1) {
 	pat = new Mage(name);
+  System.out.println("You have chosen the path of a mage!");
     }
     else if (choice == 2) {
        pat =  new Warrior(name);
+       System.out.println("You have chosen the path of a warrior!");
     }
     else if (choice == 3) {
        pat = new Marksman(name);
+       System.out.println("You have chosen the path of a warrior!");
     }
     else {
-       pat = new Protagonist(name);
+       pat = new Warrior(name);
+       System.out.println("Error... You have been assigned the path of a warrior!");
     }
     }
     catch ( IOException e ) { }
