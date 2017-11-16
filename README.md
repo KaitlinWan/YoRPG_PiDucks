@@ -29,4 +29,4 @@
 2. name your character
 3. select your path (character class)
 4. monsters will appear randomly - try to get through a max of 5 turns
-  * a "turn" may not necessarily have a monster appear
+ * a "turn" may not necessarily have a monster appear
