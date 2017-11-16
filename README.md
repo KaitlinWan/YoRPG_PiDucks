@@ -1,4 +1,5 @@
 # YoRPG_PiDucks
+*Kaitlin Wan, Sean Roudnitsky, Eric Wong*
 ## Protagonists
 ### Mage
 * slightly higher attack and strength
